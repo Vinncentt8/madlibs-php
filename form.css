@@ -1,0 +1,54 @@
+label
+{
+  float: left;
+  width: 200px;
+}
+
+form p,mood
+{
+  clear: left;
+}
+
+input[type="text"]
+{
+  width: 250px;
+}
+
+body
+{
+	background-color: dimgrey;
+}
+
+li	{
+	display:inline;
+    padding: 10px 40px;
+	text-decoration:none;
+}
+
+.a1	{
+	font-size: 25px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	background-color:  #ff5733;
+	color: #white;
+	
+}
+	
+
+.a2 {   
+    font-family: Arial;
+	background-color: white;
+    width: 640px;
+	border: 25px black;
+	padding: 25px;
+    margin: 0 auto;
+}
+
+#logo{
+    margin-left: 330px;
+    margin-top: 50px;
+}
+
+
+
