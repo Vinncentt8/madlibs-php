@@ -7,47 +7,40 @@
 
 <link href="form.css" rel="stylesheet" type="text/css" />
   <title>Formulier</title>
-  <img src="Images/logo.png" id="logo">
-  
 </head>
 
 <body>
 
-	<div class="a1" ></div>
-
-
 <?php
-  include 'menu2.php';
+  include 'menu.php';
 ?>
-
-	</div>
-  <p>
+  
 	
 	<div class="a2">	
 		<h1>Er heerst paniek in het koninkrijk <?php echo $_POST["activity"]; ?>!</h1>
-		<br>
     
 		Koning
 		<?php echo $_POST["person"]; ?>
 		is ten einde raad en als koning ten einde raad is,
 		dan roept hij zijn ten-einde-raadsheer
-		<?php echo $_POST["country"]; ?>.<p> 
-		Het is een ramp! Het is een schande!"<p>
+		<?php echo $_POST["country"]; ?>.
+		Het is een ramp! Het is een schande!"
 		"Sire, Majesteit, Uwe Luidruchtigheid, wat is er aan de hand?"<br>
 		"Mijn 
 		<?php echo $_POST["feeling"]; ?>
-		is verdwenen! <p>
+		is verdwenen! 
 		Zo maar, zonder waarschuwing. En ik had net
 		<?php echo $_POST["toy"]; ?><br>
 		voor hem gekocht!
 
 
 	
- </p>
+
   </div>
 
   
   </body>
+  <footer>Deze website is gemaakt door Vincent Hattinga Verschure</footer>
 </html>
 
 

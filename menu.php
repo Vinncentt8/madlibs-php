@@ -1,20 +1,11 @@
-<!DOCTYPE HTML>
-
-<html>
-<head>
-<link href="form.css" rel="stylesheet" type="text/css" />
-  <title>Formulier</title>
-  <img src="Images/logo.png" id="logo">
-</head>
-
-<body background="bgimage.jpg">
-
-<div CLASS="a1" ></div>
+<body background="images/background.png">
+<img src="Images/logo.png" id="logo">
+	<div id="regel">
 	<ul>
-		<li><a href="form.php">Er heerst paniek.....</a></li>
-		<li><a href="onkunde.php">Onkunde</a></li>
-		
+		<li class="zin1"><a class="zin" href="form.php">Er heerst paniek.....</a></li>
+		<li class="zin1"><a class="zin" href="onkunde.php">Onkunde</a></li>
 	</ul>
+</div>
 </div>
 </body>
 </html>

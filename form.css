@@ -4,45 +4,41 @@ label
   width: 200px;
 }
 
-form p,mood
-{
+form p{
   clear: left;
 }
 
-input[type="text"]
-{
-  width: 250px;
+input[type="text"]{
+    width: 250px;
+    margin-left: 313px;
+    margin-top: 0px;
 }
 
-body
-{
-	background-color: dimgrey;
+body{
+	background-color: #333333;
 }
 
-li	{
-	display:inline;
-    padding: 10px 40px;
-	text-decoration:none;
+li{
+	display: inline;
+	text-decoration: none;
 }
 
-.a1	{
-	font-size: 25px;
-	width: 100%;
-	margin: 0 auto;
-	text-align: left;
-	background-color:  #ff5733;
-	color: #white;
-	
+
+ul{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0;
 }
 	
 
-.a2 {   
-    font-family: Arial;
+.a2{   
+  font-family: Arial;
 	background-color: white;
-    width: 640px;
+  font-size: 13px;
+  width: 640px;
 	border: 25px black;
 	padding: 25px;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 #logo{
@@ -50,5 +46,32 @@ li	{
     margin-top: 50px;
 }
 
+#regel{
+    background-color: #CF000F;
+    height: 27px;
+    width: 690px;
+    margin: 0 auto;
+}
 
+ul .zin1, .zin{
+    margin-left: 9px;
+    color: white;
+    line-height: 25px;
+
+
+}
+
+footer{
+    background-color: dimgrey;
+    height: 27px;
+    width: 690px;
+    margin: 0 auto;
+    line-height: 27px;
+    color: white;
+}
+
+div{
+  margin: 0;
+  padding: 0;
+}
 

@@ -4,10 +4,9 @@
 <head>
 <link href="form.css" rel="stylesheet" type="text/css" />
   <title>Formulier</title>
-  <img src="Images/logo.png" id="logo">
 </head>
 
-<body background="bgimage.jpg">
+<body background="images/background.png">
 
 <div class="a1" ></div>
 
@@ -21,50 +20,51 @@
 <div class="a2" >
   <form method="post" action="mood.php">
     
-	  <p>
+	  <div>
       <label>Welk dier zou je nooit als huisdier willen?</label>
       <input type="text" name="activity" />
-    </p>
+    </div>
     
-    <p>
+    <div>
       <label>Typ de naam van de belangrijkste persoon in je leven?</label>
       <input type="text" name="person" />
-    </p>
+    </div>
     
-	<p>
+	<div>
       <label>In welk land zou je graag willen wonen?</label>
       <input type="text" name="country" />
-    </p>
+    </div>
 	
-	<p>
+	<div>
       <label>Wat doe je als je je verveelt?</label>
       <input type="text" name="feeling" />
-    </p>
+    </div>
 	
-	<p>
+	<div>
       <label>Met welk speelgoed speelde je vroeger het meest?</label>
       <input type="text" name="toy" />
-    </p>
+    </div>
 	
-	<p>
+	<div>
       <label>Bij welke docent spijbel je het liefst?</label>
       <input type="text" name="instrument" />
-    </p>
+    </div>
 	
-	<p>
+	<div>
       <label>Als je 100.000 euro zou hebben wat zou je dan kopen?</label>
       <input type="text" name="instrument" />
-    </p>
+    </div>
 	
-	<p>
+	<div>
       <label>Wat is je favoriete bezigheid?</label>
       <input type="text" name="instrument" />
-    </p>
-    <p>
+    </div>
+    <div>
 	  <label>&nbsp;</label>
       <input type="submit" value="Versturen" />
-    </p>
+    </div>
   </form>
   </div>
 </body>
+<footer>Deze website is gemaakt door Vincent Hattinga Verschure</footer>
 </html>
