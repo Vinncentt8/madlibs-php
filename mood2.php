@@ -5,7 +5,7 @@
   	<title>Formulier</title> 
 </head>
 
-<body>
+<body background="images/background.png">
 
 
 <?php
@@ -35,8 +35,8 @@
 	<?php echo $_POST["person"]; ?>
   
   </div>
+  <footer>Deze website is gemaakt door Vincent Hattinga Verschure</footer>
 </body>
-<footer>Deze website is gemaakt door Vincent Hattinga Verschure</footer>
 </html>
 
 

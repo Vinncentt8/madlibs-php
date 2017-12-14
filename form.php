@@ -5,10 +5,8 @@
 <link href="form.css" rel="stylesheet" type="text/css" />
   <title>Formulier</title>
 </head>
-
 <body background="images/background.png">
-
-<div class="a1" ></div>
+  <div class="a1" ></div>
 
 <?php
   include 'menu.php';
@@ -52,7 +50,7 @@
 	
 	<div>
       <label>Als je 100.000 euro zou hebben wat zou je dan kopen?</label>
-      <input type="text" name="instrument" />
+      <input type="text" name="voorwerp" />
     </div>
 	
 	<div>
@@ -65,6 +63,6 @@
     </div>
   </form>
   </div>
+  <footer>Deze website is gemaakt door Vincent Hattinga Verschure</footer>
 </body>
-<footer>Deze website is gemaakt door Vincent Hattinga Verschure</footer>
 </html>

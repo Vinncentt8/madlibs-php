@@ -6,7 +6,7 @@
   <title>Formulier</title>
 </head>
 
-<body>
+<body background="images/background.png">
 
 <div class="regel"></div>
 
@@ -59,6 +59,7 @@
     </div>
   </form>
   </div>
+  <footer>Deze website is gemaakt door Vincent Hattinga Verschure</footer>
 </body>
-<footer>Deze website is gemaakt door Vincent Hattinga Verschure</footer>
+
 </html>
